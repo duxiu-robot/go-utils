@@ -3,7 +3,7 @@ package quit_test
 import (
 	"fmt"
 
-	"github.com/techxmind/go-utils/message/quit"
+	"github.com/duxiu-robot/go-utils/message/quit"
 )
 
 type Service struct {

@@ -3,7 +3,7 @@ package compare
 import (
 	"strings"
 
-	"github.com/techxmind/go-utils/itype"
+	"github.com/duxiu-robot/go-utils/itype"
 )
 
 const EPSILON float64 = 1e-9

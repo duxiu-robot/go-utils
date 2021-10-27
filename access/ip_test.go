@@ -31,7 +31,7 @@ func TestIsPublicIPAddress(t *testing.T) {
 func TestGetClientIP(t *testing.T) {
 	ast := assert.New(t)
 
-	req := httptest.NewRequest("GET", "http://techxmind.com", nil)
+	req := httptest.NewRequest("GET", "http://duxiu-robot.com", nil)
 
 	req.RemoteAddr = "192.168.0.10:8080"
 	ast.Equal("192.168.0.10", GetClientIP(req))

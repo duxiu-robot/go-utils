@@ -1,7 +1,7 @@
 package access
 
 import (
-	"github.com/techxmind/logger"
+	"github.com/duxiu-robot/logger"
 )
 
 import (
